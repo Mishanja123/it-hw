@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "Mishanja123",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://github.com/Mishanja123/it-hw.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /it-hw/"
   },
   "repository": {
     "type": "git",
