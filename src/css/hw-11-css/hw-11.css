@@ -1,0 +1,282 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F4F4FD;
+        font-family: 'roboto', sans-serif;
+            color: #434455;
+}
+a {
+    text-decoration: none;
+    color:#434455;
+}
+
+.img {
+    width: 320px;
+    height: 220px;
+
+    /* object-fit: contain;
+  object-position: top; */
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.unvisible {
+    display: none;
+}
+
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 1400px;
+    
+    padding: 0 15px 0 20px;
+    padding-bottom: 20px;
+}
+
+
+.search-form {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+    gap: 20px;
+
+ 
+ 
+    padding-bottom: 50px;
+}
+
+
+.text-input {
+    box-shadow: 5px 8px 1px 1px rgba(0, 0, 0, 1);
+    
+ 
+}
+.text-input:hover {
+    transition: 0.5s;
+    box-shadow: 5px 8px 7px 3px rgba(0, 0, 255, .2);
+    
+}
+.text-input:focus{
+    transition: 0.5s;
+    box-shadow: 5px 8px 7px 3px rgba(0, 0, 255, .2);
+}
+
+.photo-card {
+
+ background-color: #fee6e3;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 20px;
+}
+
+    .photo-card:focus {
+        transition: 0.7s;
+    box-shadow: 5px 8px 7px 3px rgba(0, 0, 255, .2);
+}
+
+.photo-card:hover {
+    transition: 0.7s;
+    box-shadow: 5px 8px 7px 3px rgba(0, 0, 255, .2);
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-item {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS */
+
+
+/* input */
+.button-56-s {
+
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-56-s:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+        transition: 0.5s;
+    z-index: -1;
+}
+
+
+.button-56-s:hover:after {
+    transform: translate(0, 0);
+    transition: 0.5s;
+    box-shadow: 8px 9px 7px 3px rgba(0, 0, 255, .2);
+}
+
+.button-56-s:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button-56-s:hover {
+    outline: 0;
+    /* transition: 0.5s; */
+    
+}
+.button-56-s:focus:after{
+transform: translate(0, 0);
+    transition: 0.5s;
+    box-shadow: 8px 9px 7px 3px rgba(0, 0, 255, .2);
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+
+
+
+/* give more */
+
+
+.button-56 {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 30px;
+}
+
+.button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+        transition: transform .2s ease-out;
+        transition: 0.5s;
+        z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+    transition: 0.5s;
+    box-shadow: 8px 9px 7px 3px rgba(0, 0, 255, .2);
+
+}
+
+.button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+
+}
+.button-56:focus:after {
+    transform: translate(0, 0);
+    transition: 0.5s;
+    box-shadow: 8px 9px 7px 3px rgba(0, 0, 255, .2);
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+
+
+/* img scale */
+
+.scale {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+    border-radius: 20px;
+}
+
+.scale img {
+    transition: 0.7s;
+    /* Время эффекта */
+    display: block;
+    /* Убираем небольшой отступ снизу */
+}
+
+.scale img:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
+}

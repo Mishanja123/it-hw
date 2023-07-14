@@ -1,0 +1,73 @@
+/* import */
+/* @import url('./common/body.css');
+@import url('./common/reset.css');
+@import url('./common/utilites.css'); */
+/* hw-6 */
+@import url('./common/home.css'); 
+
+@import url('./hw-6-css/task-1.css');
+@import url('./hw-6-css/task-2.css');
+@import url('./hw-6-css/task-3.css');
+@import url('./hw-6-css/task-4.css');
+@import url('./hw-6-css/task-5.css');
+@import url('./hw-6-css/task-6.css');
+@import url('./hw-6-css/task-7.css');
+@import url('./hw-6-css/task-8.css');
+@import url('./hw-6-css/task-9.css');
+@import url('./hw-6-css/task-10.css');
+/* hw-7 */
+@import url('./hw-7-css/gallery.css');
+/* hw-8 */
+@import url('./hw-8-css/1-gallery.css');
+@import url('./hw-8-css/feedback.css');
+@import url('./hw-8-css/video.css');
+/* hw-9 */
+@import url('./hw-9-css/color-switcher.css');
+@import url('./hw-9-css/timer.css');
+@import url('./hw-9-css/promises.css');
+/* hw-10 */
+@import url('./hw-10-css/hw-10.css');
+/* hw-11 */
+@import url('./hw-11-css/hw-11.css');
+
+
+/* font */
+/* @font-face {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Fp2ywxg089UriCZaIGA.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Ap2ywxg089UriCZaw7BymDg.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriOZQ.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriAWCrOB8.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriASitOB8.ttf) format('truetype');
+  } */
